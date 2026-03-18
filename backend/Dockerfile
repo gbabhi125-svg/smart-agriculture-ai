@@ -12,9 +12,14 @@ RUN pip install --no-cache-dir \
     joblib==1.3.2 \
     shap==0.42.1 \
     pandas==2.0.3 \
-    xgboost==1.7.6
+    xgboost==1.7.6 \
+    requests==2.31.0
 
 COPY app.py .
+COPY ../ml_models ./ml_models
+COPY ../datasets ./datasets
+
+ENV BASE_DIR=/app
 
 EXPOSE 5000
 
