@@ -16,8 +16,8 @@ RUN pip install --no-cache-dir \
     requests==2.31.0
 
 COPY app.py .
-COPY ../ml_models ./ml_models
-COPY ../datasets ./datasets
+COPY ml_models ./ml_models
+COPY datasets ./datasets
 
 ENV BASE_DIR=/app
 
