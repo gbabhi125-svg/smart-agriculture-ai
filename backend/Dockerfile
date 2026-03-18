@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir \
     xgboost==1.7.6 \
     requests==2.31.0
 
-COPY app.py .
+COPY backend/app.py .
 COPY ml_models/ ./ml_models/
 COPY datasets/ ./datasets/
 
