@@ -11,7 +11,7 @@
 
 **An end-to-end AI-powered farming assistant that helps farmers make data-driven decisions using Machine Learning, Explainable AI, and real-time data.**
 
-[🚀 Live Demo](#) · [📓 Jupyter Notebook](notebooks/crop_analysis.ipynb) · [🐛 Report Bug](#) · [💡 Request Feature](#)
+[🚀 GitHub Repo](https://github.com/gbabhi125-svg/smart-agriculture-ai)
 
 </div>
 
